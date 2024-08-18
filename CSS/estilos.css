@@ -1,0 +1,86 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Estilo del encabezado */
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para los contenedores de los campos */
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para las etiquetas */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo para los campos de entrada */
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para los campos de entrada en foco */
+  input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  #mostrarMensaje {
+    display: block;
+    width: 50%;
+    height: 50px;
+    padding: 12px;
+    margin: 12px auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contenedor {
+    width: 300px; /* Ajusta el ancho del contenedor */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+  }
+  
+  .lista-desplegable {
+    width: 100%; /* Ajusta el ancho del <select> */
+    padding: 10px; /* Espaciado interno del <select> */
+    border: 1px solid #ccc; /* Borde del <select> */
+    border-radius: 5px; /* Bordes redondeados del <select> */
+  }
+  
+  #mensaje {
+    margin-top: 10px; /* Espaciado arriba del mensaje */
+    font-size: 16px; /* Tamaño de fuente del mensaje */
+  }
+  
+  

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datos Insertados</title>
+  <link href='/CSS/estilos.css' rel='stylesheet'>
+</head>
+<body>
+  <h1>Insertar datos</h1>
+  <div>
+    <label for="nombre">¿Cuál es tu nombre?:</label>
+    <input type="text" id="nombre" name="nombre">
+  </div>
+  <div>
+    <label for="edad">¿Cuántos años tienes?:</label>
+    <input type="number" id="edad" name="edad">
+  </div>
+
+  <div class="contenedor">
+    <label for="miLista">Selecciona una opción:</label>
+    <select id="miLista" class="lista-desplegable">
+      <option value="Java">Java</option>
+      <option value="JavaScrip">JavaScrip</option>
+      <option value="Python">Python</option>
+      <option value="C#">C#</option>
+      <option value="C++">C++</option>º
+      <option value="PHP">PHP</option>
+      <option value="C">C</option>
+    </select>
+  </div>
+  
+  <button id="mostrarMensaje">Mostrar mensaje</button>
+  <div id="resultado"></div>
+
+   
+  <script defer type="text/javascript" src="/JS/main.js"></script>
+</body>
+</html>
